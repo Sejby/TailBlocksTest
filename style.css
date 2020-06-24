@@ -1,30 +1,51 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
-#hero h1{
-    font-size: 2.6em;
+.logo span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
 }
 
-#hero p{
-    font-size: 1.3em;
+footer .logo span {
+    font-size: 1.5em;
 }
 
-#content1 h1{
+#hero h1 {
+    font-size: 2.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+#content1 h1 {
     font-size: 2.2em;
 }
 
-#content2 h1{
+#content2 h1 {
     font-size: 2.2em;
 }
 
-#content2 p{
+#content2 p {
     font-size: 1.05em;
 }
 
+header {
+    background: rgb(0, 0, 177);
+    color: white;
+}
+
+.navbar a {
+    font-size: 1.2em;
+}
+
 .navbar a:hover {
-    color: black;
-    border-bottom: 1px solid rgb(0, 0, 177);
+    border-bottom: 1px solid white;
     cursor: pointer;
     transition: 0.3s ease all;
 }
@@ -45,7 +66,8 @@ html {
 }
 
 .flex-grow p {
-    font-size: 1.05em;
+    font-size: 1.2em;
+    line-height: 1.6;
     padding: 5px;
 }
 
@@ -56,4 +78,10 @@ html {
 .submitButton:hover {
     background-color: rgb(0, 0, 107);
     transition: 0.3s ease all;
+}
+
+.footer1 {
+}
+
+.footer2 {
 }
