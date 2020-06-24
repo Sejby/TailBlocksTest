@@ -1,16 +1,59 @@
-a:hover{
+html {
+    scroll-behavior: smooth;
+}
+
+#hero h1{
+    font-size: 2.6em;
+}
+
+#hero p{
+    font-size: 1.3em;
+}
+
+#content1 h1{
+    font-size: 2.2em;
+}
+
+#content2 h1{
+    font-size: 2.2em;
+}
+
+#content2 p{
+    font-size: 1.05em;
+}
+
+.navbar a:hover {
     color: black;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid rgb(0, 0, 177);
     cursor: pointer;
     transition: 0.3s ease all;
 }
 
-.flex-grow h2{
-    padding: 5px;
+.herobutton {
+    background-color: rgb(0, 0, 177);
+    transition: 0.3s ease all;
+}
+
+.herobutton:hover {
+    background-color: rgb(0, 0, 107);
+    transition: 0.3s ease all;
+}
+
+.flex-grow h2 {
+    padding: 10px;
     font-size: 2em;
 }
 
-.flex-grow p{
-    font-size: 1.2em;
+.flex-grow p {
+    font-size: 1.05em;
     padding: 5px;
+}
+
+.colorChange {
+    background-color: rgb(0, 0, 177);
+}
+
+.submitButton:hover {
+    background-color: rgb(0, 0, 107);
+    transition: 0.3s ease all;
 }
