@@ -13,7 +13,8 @@ a{
 
 .logo span {
     font-family: "Montserrat", sans-serif;
-    font-weight: bold !important;
+    font-weight: 700 !important;
+    font-style: italic;
     font-size: 2em;
 }
 
