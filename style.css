@@ -69,12 +69,15 @@ header {
 }
 
 .herobutton {
-    background-color: rgb(0, 0, 107);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(0, 0, 48);
     transition: 0.3s ease all;
 }
 
 .herobutton:hover {
-    background-color: rgb(0, 0, 48);
+    background-color: rgb(0, 0, 29);
     transition: 0.3s ease all;
 }
 
@@ -90,7 +93,7 @@ header {
 }
 
 .colorChange {
-    background-color: rgb(0, 0, 139);
+    background-color: rgb(0, 0, 48);
     color: white;
     padding: 10px;
     width: 225px;
@@ -98,7 +101,7 @@ header {
 }
 
 .submitButton:hover {
-    background-color: rgb(0, 0, 48);
+    background-color: rgb(0, 0, 29);
     transition: 0.3s ease all;
 }
 
