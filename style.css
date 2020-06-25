@@ -95,6 +95,8 @@ header {
 
 .flex-grow h2 {
     padding: 10px;
+    font-weight: bolder;
+    color: black;
     font-size: 2em;
 }
 
