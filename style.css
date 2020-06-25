@@ -1,10 +1,11 @@
-body {
-    font-family: "Roboto", sans-serif;
-    background-color: rgb(240, 240, 240);
-}
-
 html {
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(245, 245, 245);
 }
 
 a {
@@ -37,7 +38,7 @@ footer .logo span {
 }
 
 #hero p {
-    color: rgb(207, 207, 207);
+    color: rgb(216, 216, 216);
     font-size: 1.2em;
 }
 
@@ -53,9 +54,16 @@ footer .logo span {
     font-size: 1.05em;
 }
 
-#content1 i{
+#content1 i {
     color: rgb(0, 0, 87);
     font-size: 3.5em;
+}
+
+.card {
+    padding: 50px;
+    border: 1px solid rgb(0, 0, 48);
+    background-color: white;
+    border-radius: 24px;
 }
 
 header {
@@ -142,11 +150,11 @@ footer a {
         display: none;
     }
 
-    .infoDiv{
+    .infoDiv {
         opacity: 0;
     }
 
-    .contact iframe{
+    .contact iframe {
         z-index: 1;
     }
 }
