@@ -53,6 +53,11 @@ footer .logo span {
     font-size: 1.05em;
 }
 
+#content1 i{
+    color: rgb(0, 0, 87);
+    font-size: 3.5em;
+}
+
 header {
     background: rgb(0, 0, 48);
     color: white;
