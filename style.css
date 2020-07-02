@@ -144,12 +144,14 @@ header {
 }
 
 .buttonColorChange {
-    background-color: rgb(0, 0, 48);
+    background-color: #000018;
     color: white;
+    transition: 0.3s ease all;
 }
 
 .buttonColorChange:hover {
-    background-color: rgb(0, 0, 29);
+    background-color: white;
+    color: black;
     transition: 0.3s ease all;
 }
 
@@ -160,6 +162,10 @@ header {
 
 .buttonDiv {
     text-align: center;
+}
+
+.itemCard{
+    background-color: #dae1e7;
 }
 
 footer {
