@@ -210,7 +210,16 @@ footer a {
     }
 
     #hero {
-        padding-top: 1%;
+        padding-top: 0%;
+        height: 100%;
+    }
+
+    #hero h1{
+        font-size: 2.5em;
+    }
+
+    #hero p{
+        font-size: 1.2em;
     }
 
     #testDiv {
