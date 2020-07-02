@@ -87,6 +87,8 @@ header {
 }
 
 .navbar a {
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 1.2em;
 }
 
@@ -117,6 +119,13 @@ header {
 .line {
     height: 5px;
     width: 15%;
+    background-color: #ff7e67;
+    border-radius: 10px;
+}
+
+.secondLine{
+    height: 5px;
+    width: 30%;
     background-color: #ff7e67;
     border-radius: 10px;
 }
